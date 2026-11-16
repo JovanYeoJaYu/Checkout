@@ -1,0 +1,17 @@
+name: Automatic triggered workflow
+
+on: workflow_dispatch
+
+jobs:
+  Auto:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Student name
+        run: echo "Display Student - <Your Name>"
+
+      - name: Module name
+        run: echo "Display Module - C339 Software Testing and Analytics."
+
+      - name: Show message
+        run: echo "Display My GitHub Actions workflow is running automatically."
