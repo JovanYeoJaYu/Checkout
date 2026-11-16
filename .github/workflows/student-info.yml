@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Student name
-        run: echo "Display Student - <Your Name>"
+        run: echo "Display Student - Jovan Yeo Ja Yu"
 
       - name: Module name
         run: echo "Display Module - C339 Software Testing and Analytics."
