@@ -1,6 +1,6 @@
 name: Automatic triggered workflow
 
-on: workflow_dispatch
+on: push
 
 jobs:
   Auto:
